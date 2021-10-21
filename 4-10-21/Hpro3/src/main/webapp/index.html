@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<form action="/src/main/webapp/WEB-INF/index1.html" method="get">
+<label>First name</label>
+    <input type="text" name="fname" id="fname"><br>
+    <label>Last name</label>
+    <input type="text" name="lnae" id="lname"><br>
+    <label>password</label>
+    <input type="password" name="pword" id="pword"><br>
+    <label> Adress</label>
+    <textarea rows="10" cols="10" name="adrs" ></textarea>
+
+    <br>
+    <label>States</label>
+    <select name="states" id="States">
+        <option value="Karnataka">karna</option>
+        <option value="TN">tamilNadu</option>
+    </select>
+
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+   <!-- RadioButton-->
+
+
+
+    <input type="radio" id="fruit" value="apple">
+    <label for="fruit">Apple</label>
+    <br>
+   <!-- CheckBox-->
+    <input type="checkbox" id="1vaccination" name="1vaccination" values="1">
+    <label for="1vaccination">Completed 1 vaccination</label>
+    <input type="checkbox" id="2vaccination" name="2vaccination" values="2">
+    <label for="2vaccination">Completed 2 vaccination</label>
+
+    <br>
+    <label for doj>Join date</label>
+    <input type="date" id="doj" name="doj">
+    <br>
+    <input type="number" id="qty" name="qty" min="1" max="10">
+    <label for qty>Quantity</label>
+    <br>
+    <label for="myfile">Selectt files from the local drive</label>
+    <input type="file" id="myfile" name="myfile">
+    <br>
+    <label for ="mymail" >Enter your mail</label>
+            <input type="email" id="mymail" name="mymail">
+</form>
+
+</body>
+</html>
